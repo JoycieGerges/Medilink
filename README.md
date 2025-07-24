@@ -8,7 +8,7 @@
 
 ## 🗂️ Folder Structure
 
-``text
+text
 MediLink-Graduation-Project/
 ├── mobile_app/          # Flutter mobile app for doctors
 ├── web_dashboard/       # Flutter web dashboard for pharmacists
