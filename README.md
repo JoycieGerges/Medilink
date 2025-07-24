@@ -11,12 +11,12 @@
 text
 MediLink-Graduation-Project/
 ├── mobile_app/          # Flutter mobile app for doctors
-├── web_dashboard/       # Flutter web dashboard for pharmacists
-├── survey/              # Fuzzy logic + survey API for addiction risk evaluation
-├── hl7/                 # HL7-compatible script for data exchange
-├── LICENSE
-├── README.md            # This file
-└── .gitignore
+   ├── web_dashboard/       # Flutter web dashboard for pharmacists
+      ├── survey/              # Fuzzy logic + survey API for addiction risk evaluation
+          ├── hl7/                 # HL7-compatible script for data exchange
+            ├── LICENSE
+               ├── README.md            # This file
+                 └── .gitignore
 
 
 ---
