@@ -1,53 +1,74 @@
 # 🏥 MediLink – Graduation Project
 
-**MediLink** is a secure mobile & web system that digitizes prescription handling between doctors, pharmacies, and patients. The system aims to prevent drug misuse and streamline the healthcare process.
+
+🎓 Final year graduation project for the Faculty of Computer Science and Artificial Intelligence – Pharos University in Alexandria.  
+💊 MediLink is a smart e-prescription system that prevents medication misuse and connects **doctors**, **pharmacists**, and **patients** securely.
 
 ---
 
-## 📱 Features
+## 🗂️ Folder Structure
 
-### 👨‍⚕️ Doctor App (Flutter Mobile)
-- Secure login with fingerprint
-- Add new prescriptions for patients
-- View, edit, or delete previous prescriptions
-- Upload Syndicate ID during registration
-- Prescription data stored by patient national ID
+text
+MediLink-Graduation-Project/
+├── mobile_app/          # Flutter mobile app for doctors
+├── web_dashboard/       # Flutter web dashboard for pharmacists
+├── survey/              # Fuzzy logic + survey API for addiction risk evaluation
+├── hl7/                 # HL7-compatible script for data exchange
+├── LICENSE
+├── README.md            # This file
+└── .gitignore
 
-### 💊 Pharmacist Web Dashboard (Flutter Web)
-- View prescriptions after verifying patient name & ID
-- OTP verification before dispensing medicine
-- Track dispensing status (Pending / Processed)
-- Monthly analytics dashboard
-
-### 🤖 AI Integration
-- Analyze patient survey responses
-- Fuzzy logic scoring to detect possible misuse or dependency
-- Disable medication dispensing if score is high (e.g., ≥ 8)
 
 ---
 
-## 🛠 Tech Stack
+## 📱 mobile_app
 
-- **Flutter** (Web & Mobile)
-- **Firebase** (Auth, Firestore, Realtime DB, Storage)
-- **Python** (AI backend for scoring + Flask)
-- **HL7** Messaging (for medical system interoperability)
-- **Apps Script** (Google Forms survey processing)
+- A full-featured **Flutter mobile app** built for **doctors**.
+- Doctors can register, log in, and manage prescriptions.
+- Fingerprint login, secure prescription entry, patient linkage via National ID.
 
----
-
-## 📊 Sample Dashboards
-
-| Doctor App | Pharmacy Web | Admin AI |
-|------------|---------------|----------|
-| ![](screenshots/doctor.png) | ![](screenshots/pharmacy.png) | ![](screenshots/ai.png) |
-
-> *(Add real screenshots in folder `screenshots/` if available)*
+More details inside: [mobile_app/README.md](./mobile_app/README.md)
 
 ---
 
-## 🚀 Getting Started
+## 💻 web_dashboard
 
-```bash
-git clone https://github.com/JoycieGerges/Medilink.git
-cd Medilink
+- **Flutter web app** designed for **pharmacists**.
+- Search prescriptions by patient National ID, validate OTP, and mark as dispensed.
+- Dashboards to monitor dispensed meds and visit history.
+
+More details inside: [web_dashboard/README.md](./web_dashboard/README.md)
+
+---
+
+## 🔒 Security Notice
+
+GitHub automatically scans for secrets like API keys. If you're working with Firebase or external APIs:
+
+- NEVER push google-services.json or .env files publicly.
+- Always add sensitive files to .gitignore.
+- Rotate and delete any leaked keys immediately.
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+---
+
+## 👥 Team Members
+
+- Mark Amgad George
+- Joycie Gerges
+- Marwan Mahmoud
+- Samir Saeed
+- Mohamed El Sayed Ayoub
+- Abdelghany Mohamed
+
+---
+
+## 📬 Contact
+
+For inquiries or demo requests, contact: markamgad18@gmail.com
+3adl da zawd al survey w hl7 w da b2a 4akl al folders 
