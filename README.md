@@ -59,8 +59,8 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ## 👥 Team Members
 
-- Mark Amgad George
 - Joycie Gerges
+- Mark Amgad
 - Marwan Mahmoud
 - Samir Saeed
 - Mohamed El Sayed Ayoub
@@ -70,5 +70,5 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ## 📬 Contact
 
-For inquiries or demo requests, contact: markamgad18@gmail.com
+For inquiries or demo requests, contact: joyciegerges@gmail.com
 3adl da zawd al survey w hl7 w da b2a 4akl al folders 
